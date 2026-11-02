@@ -55,10 +55,12 @@ main.wide { max-width: 1040px; }
 .hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 40px; align-items: center; margin: 8px 0 48px; }
 .hero h1 { font-size: 44px; line-height: 1.12; letter-spacing: -0.02em; margin-bottom: 16px; }
 .lead { font-size: 20px; color: var(--muted); margin: 0 0 24px; }
-.badge-soon {
+.badge-store {
   display: inline-block; background: var(--forest); color: var(--bg);
   padding: 12px 20px; border-radius: 14px; font-weight: 600; font-size: 16px;
+  text-decoration: none;
 }
+.badge-store:hover { background: var(--primary); }
 .hero-shot { display: flex; justify-content: center; }
 .shot {
   width: 100%; max-width: 300px; height: auto; border-radius: 36px;
